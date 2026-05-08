@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Vidzcides/DevOps_4.git'
+                git branch: 'main', url: 'https://github.com/Divine-Marshal/CIA_DEV.git'
             }
         }
 
